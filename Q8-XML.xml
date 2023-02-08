@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
+
+<!DOCTYPE Q7-DTD SYSTEM "Q7-DTD.dtd">
+
+<doc>
+<documentation>
+	La pop coréenne « K-pop »
+	est un mouvement musical venu tout droit de la Corée du Sud. Le terme englobe plusieurs 
+	genres musicaux : la pop, évidemment, mais aussi le rock, le RnB, le hip hop, la dance ou 
+	encore la musique électronique.
+	</documentation>
+	<documentation>Image MCD de la base de donnée:<lien/> 
+	Le site de référence utilisé KPOPDB: <lien> https://dbkpop.com/ </lien>
+</documentation>
+<groupe idg="1">
+	<name> BLACKPINK </name>
+		<documentation> 
+			Biographie : 
+			<lien>https://fr.wikipedia.org/wiki/Blackpink</lien> 
+			Photo : 
+			<lien/> 
+		</documentation>
+ 	
+	<gender>girlsband </gender>
+	<debuteyear>2016-08-28 </debuteyear>
+	<active>Oui </active>
+	<musicgenre>K-pop, hip-hop, j-pop</musicgenre>
+	
+</groupe>
+<groupe idg="2">
+	<name> BTS </name>
+		<documentation> 
+			Biographie : 
+			<lien>https://fr.wikipedia.org/wiki/BTS_(groupe)</lien> 
+			Photo : 
+			<lien/> 
+		</documentation>
+ 	
+	<gender>boyssband </gender>
+	<debuteyear>2013-06-13 </debuteyear>
+	<active>Oui </active>
+	<musicgenre>K-pop, ballade, soul</musicgenre>
+	
+</groupe>
+<music ids="1" idg="1">
+	<artistename>BLACKPINK</artistename>
+	<namesong>Kill this love</namesong>
+	<daterelease>2019-04-04</daterelease>
+</music>
+<music ids="2" idg="2">
+	<artistename>BTS</artistename>
+	<namesong>Dynamite</namesong>
+	<daterelease>2020-08-21</daterelease>
+</music>
+<music ids="3" idg="1">
+	<artistename>BLACKPINK</artistename>
+	<namesong>Whistle</namesong>
+	<daterelease>2016-08-08</daterelease>
+</music>
+</doc>
+

@@ -1,0 +1,15 @@
+<!ELEMENT doc(documentation+,groupe+,music+)>
+<!ELEMENT groupe (documentation*,name,gender?,debuteyear?,active?)*>
+<!ATTLIST groupe idg #REQUIRED CDATA>
+<!ELEMENT documentation (lien|#PCDATA)*>
+<!ATTLIST documentation date CDATA #IMPLIED auteur CDATA #IMPLIED>
+<!ELEMENT lien #PCDATA>
+<!ELEMENT name (#PCDATA|documentation)*>
+<!ELEMENT gender #PCDATA>
+<!ELEMENT debuteyear #PCDATA>
+<!ELEMENT active (#PCDATA|documentation*)>
+<!ELEMENT music(documentation*, artistename, namesong,daterelease?)*>
+<!ATTLIST music ids #REQUIRED CDATA idg #REQUIRED CDATA>
+<!ELEMENT artistename #PCDATA>
+<!ELEMENT namesong #PCDATA>
+<!ELEMENT daterelease #PCDATA>

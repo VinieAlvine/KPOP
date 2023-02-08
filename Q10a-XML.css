@@ -1,0 +1,95 @@
+doc {
+background-color:rgb(144, 3, 91);
+color:white;
+}
+groupe, music{
+	background-color:rgb(102, 51, 79);
+	display:block;
+	width:280px;
+	margin:1em;
+	padding:1em;
+	float:left;
+	border-style:solid;
+	border-color:white;
+	margin-bottom:10px;
+}
+music[idg="1"]{
+	clear:left;
+}
+groupe:before{
+	content:"GROUPES : ";
+	font-family:Verdana;
+	font-size:150%;
+	font-weight:bold;
+}
+groupe name,gender,debuteyear,active,musicgenre,documentation, music artistename,namesong,daterelease, groupe documentation lien{
+	display:block;
+	margin:0.2em;
+	padding:0.2em;
+}
+groupe name:before{
+content:"Nom: ";}
+groupe gender:before{
+content:"Genre: ";}
+groupe debuteyear:before{
+content:"Debut: ";}
+groupe active:before{
+content:"Actif ? ";}
+groupe musicgenre:before{
+content:"Genre musicaux: ";
+}
+
+music:before{
+content:"MUSIC: ";
+font-family:Verdana;
+	font-size:150%;
+	font-weight:bold;
+}
+music > artistename:before{
+	content:"Nom groupe: ";
+	
+}
+
+music > namesong:before{
+	content:"Titre: ";
+	
+}
+music > daterelease:before{
+	content:"Date de sortie: ";
+	
+}
+groupe > documentation > lien:first-child, doc > documentation > lien:last-child{
+	text-decoration:underline;
+}
+groupe[idg="1"] documentation lien:last-child{
+	background-image:url("img/blackpink.jpeg");
+}
+groupe[idg="2"] documentation lien:last-child{
+	background-image:url("img/bts.jpg");
+}
+groupe documentation lien:last-child{	
+	block-size:150px;
+	writing-mode:horizontal-tb;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+doc > documentation{
+	text-indent:2%;
+	font-size:110%;
+	text-align:center;
+	font-size:110%;
+	font-family:Georgia, serif;
+}
+
+doc > documentation > lien:first-child{
+	font-size:110%;
+	display:block;
+	background-image:url("img/mcd.png");
+	block-size:400px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left: 42%;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
